@@ -1,0 +1,195 @@
+@media  (max-width: 320px) {
+
+    header {
+        background-color: #fff;
+    }
+
+    footer {
+        width: 320px;
+    }
+
+    header .container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 320px;
+        padding: 0 15px;
+    }
+
+    .menu.open .nav-menu {
+        display: flex;
+        flex-direction: column;
+        background-color: #E1EDE6;
+    }
+
+    .logo {
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 17px 15px 16px 15px;
+    }
+
+    .nav {
+        padding: 0;
+        width: 320px;
+    }
+
+    .menu {
+        background-color: #E1EDE6;
+        padding: 16px 15px; width: 320px;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .nav-item-img {
+        display: block;
+    }
+
+    .team-content {
+        flex-wrap: wrap;
+    }
+
+    .main-container {
+        width: 290px;
+        margin: 60px 0;
+    }
+
+    .team-text {
+        margin-top: 0;
+    }
+
+    .hero {
+        display: none;
+    }
+
+    .main-container h1 {
+        font-size: 30px;
+        line-height: 100%;
+    }
+
+    .main-container p {
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+
+    .main-button {
+        padding: 15px 29px;
+    }
+
+    .logo-title h2 {
+        font-size: 24px;
+        line-height: 110%;
+        padding-left: 15px;
+    }
+
+    .logo-title {
+        margin: 0 auto;
+    }
+
+    .catalog-menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .catalog-nav-menu {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 290px;
+        gap: 20px;
+        padding: 20px 15px;
+        text-align: center;
+    }
+
+    .catalog-content {
+        margin: 0;
+    }
+
+    .promo {
+        padding: 50px 0;
+        background: url(..//img/promo/pic_background_mobile.png) no-repeat;
+        margin-top: 60px;
+        width: 320px;
+    }
+
+    .promo-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .promo-title {
+        width: 290px;
+    }
+
+    .promo-title h2 {
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+    .promo-content {
+        width: 290px;
+    }
+
+    .promo-text {
+        padding: 20px 0 30px 0;
+    }
+
+    .promo-text p {
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .promo-button {
+        padding: 14px 0;
+        font-size: 18px;
+    }
+
+    .team-text h2 {
+        font-size: 24px;
+        line-height: 110%;
+    }
+
+    .team-text p {
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .footer-logo {
+        width: 143px;
+        height: 35px;
+    }
+
+    .footer-nav {
+        flex-wrap: wrap;
+    }
+
+    .footer-nav-1 {
+        width: 143px;
+    }
+
+    .nav-item-main {
+        font-size: 16px;
+    }
+
+    .footer-name {
+        font-size: 16px;
+        line-height: 100%;
+        width: 136px;
+    }
+
+    .footer-nav-2 {
+        padding: 20px 0;
+        gap: 6px;
+        border-bottom: 1px solid #C3D1C6;
+        margin: 0;
+    }
+
+    .footer-nav-3 {
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+}
